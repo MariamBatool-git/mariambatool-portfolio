@@ -15,8 +15,7 @@ export async function POST(req: NextRequest) {
     try {
         await resend.emails.send({
             from: "Contact Form <onboarding@resend.dev>", 
-            to : "mariammalik.mb462@gmail.com",
-            //to: process.env.YOUR_EMAIL!,
+            to: process.env.YOUR_EMAIL!,
             subject: `New message from ${name}`,
             html: `
         <h4>You received a new message from your portfolio website.</h4>
