@@ -5,7 +5,6 @@ import Skills from "./components/skills";
 import Experience from "./components/experience";
 import Contact from "./components/contact";
 import { Box, Typography } from "@mui/material";
-import Footer from "./components/Footer";
 import { designation, name, skillsSummary } from "./constants";
 
 export default function Home() {
