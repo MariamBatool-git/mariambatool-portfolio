@@ -1,32 +1,35 @@
-import { Skill } from "../types";
+import { SkillCategories } from "../types";
 
-export const skills: Skill[] = [
-    'React JS',   //React JS
-    'React Native', //React Native
-    'Next JS', //Next JS
-    'Typescript', //Typescript
-    'Javascript',     //Javascript
-    'Redux', //Redux
-    'Zustand', //Zustand
-    'StoryBook', //StoryBook
-    'HTML', //HTML
-    'Node JS', //Node JS
-    'Git', //Git
-    'Cloud Services (AWS)', //Cloud Services (AWS)
-    'CSS',     //CSS
-    'Scss', //Scss
-    'Tailwind CSS', //Tailwind CSS
-    'Figma', //Figma
-    'Python', //Python
-    'Java', //Java
-    'C', //C
-    'C++', //C++
-    'Flask', //Flask
-    'Django', //Django
-    'PyTorch', //PyTorch
-    'TensorFlow', //TensorFlow
-    'Puppeteer', //Puppeteer
-    'PostgresQL', //PostgresQL
-    'MySQL', //MySQL
-    'MongoDB', //MongoDB
+export const skillCategories : SkillCategories = [
+    {
+        label: "AWS",
+        skills: [
+            "EC2", "Lambda", "Elastic Beanstalk", "Step Functions", "S3", "EBS", "RDS",
+            "ElastiCache", "Athena", "CloudFront", "ELB", "Route 53", "API Gateway",
+            "IAM", "Secrets Manager", "Parameter Store", "CodePipeline", "CodeBuild", "CodeDeploy",
+            "SNS", "SQS", "KMS"
+        ]
+    },
+    {
+        label: "Frontend",
+        skills: [
+            "React Native", "React JS", "Next JS", "Redux", "Zustand", "StoryBook",
+            "HTML", "CSS", "SCSS", "Tailwind CSS"
+        ]
+    },
+    {
+        label: "Backend & Languages",
+        skills: [
+            "Python", "TypeScript", "JavaScript", "Java", "C", "C++",
+            "Flask", "Django", "Node JS", "Puppeteer"
+        ]
+    },
+    {
+        label: "AI/ML",
+        skills: ["PyTorch", "TensorFlow"]
+    },
+    {
+        label: "Databases",
+        skills: ["PostgreSQL", "MySQL", "MongoDB"]
+    }
 ];

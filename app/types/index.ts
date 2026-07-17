@@ -8,8 +8,6 @@ export type Project = {
 
 export type About = string;
 
-export type Skill = string;
-
 export type Experience = {
     company: string;
     role: string;
@@ -22,3 +20,10 @@ export type ContactFormData = {
   email: string;
   message: string;
 };
+
+export interface SkillCategory {
+    label: string;
+    skills: string[];
+}
+
+export type SkillCategories = SkillCategory[];
