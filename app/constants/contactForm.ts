@@ -1,0 +1,1 @@
+export const LAMBDA_URL = process.env.LAMBDA_URL || "https://fej2svyn7sf6vq6t36v5ulklwe0trnkl.lambda-url.us-east-1.on.aws/";
