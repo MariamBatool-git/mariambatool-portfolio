@@ -2,7 +2,6 @@
 
 import { Experience } from "../types"
 import { Card, CardContent, Typography, Stack } from "@mui/material";
-import CircleIcon from '@mui/icons-material/Circle';
 
 interface ExperienceCardProps {
     experience: Experience;
@@ -20,10 +19,10 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
                 <Typography variant="body2" gutterBottom>
                     {experience.duration}
                 </Typography>
-                <Stack direction="row" sx={{ flexWrap: 'wrap', gap: 1, marginBottom: 1, marginTop: 2 }}>
+                <Stack direction="row" sx={{ flexWrap: 'wrap', gap: 1, marginBottom: 1, marginTop: 2, marginLeft: 2 }}>
                     {experience.description.map((desc, index) =>
                         <Typography variant="body2" gutterBottom key={index}>
-                           <CircleIcon sx={{fontSize : 5}}/> {desc}
+                            {desc}
                         </Typography>
                     )}
                 </Stack>

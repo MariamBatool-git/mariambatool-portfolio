@@ -6,9 +6,9 @@ export const experience: Experience[] = [
         role: "Software Developer",
         duration: "May 2025 - October 2025",
         description: [
-            "Contributed to the development of Spirit of Math, a cross-platform educational app using React Native (Expo), Flask, and MongoDB, building modular, reusable UI components.", 
-            "Designed and optimized LLM pipelines and built applications using advanced AI models.",
-            "Developed serverless APIs using AWS Lambda and API Gateway to support scalable application functionality."
+            "Contributed to the development of an EdTech application using React Native (Expo), Flask, and MongoDB, building modular, reusable UI components.", 
+            "Developed serverless APIs using cloud services (e.g., AWS Lambda and AWS API Gateway) to support scalable application functionality.",
+            "Automated deployment and testing through CI/CD pipelines."
         ]
     },
     {
@@ -16,11 +16,10 @@ export const experience: Experience[] = [
         role: "Senior Software Engineer",
         duration: "Jun 2023 - May 2024",
         description: [
-            "Contributed to an AI-driven finance platform by implementing features across React (frontend) and Flask (backend), and integrated LLM-based functionalities.", 
-            "Designed and executed API workflows, ensuring reliable data flow, validation, and error handling.",
-            "Spearheaded web development initiatives, delivering functional and visually appealing user interfaces",
-            "Actively participated in code reviews to enforce coding standards and proactively identify bugs before production deployment.",
-            "Enhanced UI/UX components in React, ensuring smoother user interactions."
+            "Architected core features of an AI-driven finance platform, unifying financial management into a single app.",
+            "Independently built an LLM-powered financial assistant, adding agentic capabilities to the platform.",
+            "Integrated Plaid to connect and aggregate real-time financial data across users' bank accounts and transactions.",
+            "Designed and scaled backend APIs powering budgeting, goal-tracking, and forecasting functionality."
         ]
     },
     {
@@ -28,9 +27,9 @@ export const experience: Experience[] = [
         role: "Full Stack Engineer",
         duration: "Apr 2022 - Apr 2023",
         description: [
-            "Developed, tested, and maintained the fintech mobile app in React Native for iOS/Android.",
-            "Built a scalable AML/KYC compliance system using web scraping & data processing.",
-            "Conducted code reviews, and API integrations, ensuring reliable system behavior."
+            "Shipped core features for a robo-advisory app across iOS/Android using React Native, Node.js, and MongoDB.",
+            "Integrated Alpaca's APIs to enable live brokerage trading and in-app account management.",
+            "Built an AML screener independently, replacing manual watchlist checks in employee onboarding."
         ]
     },
 ];

@@ -6,6 +6,7 @@ import Experience from "./components/experience";
 import Contact from "./components/contact";
 import { Box, Typography } from "@mui/material";
 import { designation, name, skillsSummary } from "./constants";
+import Certifications from "./components/certifications";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <div id="content-section" className="w-full bg-stone-800 px-2 flex flex-col items-center justify-center">
         <About />
         <Projects />
+        <Certifications />
         <Skills />
         <Experience />
         <Box component="footer" className="mt-2 w-[100%] flex flex-col sm:flex-row items-center justify-center gap-4 py-4 rounded-t-lg bg-stone-200">

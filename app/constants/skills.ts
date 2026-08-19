@@ -7,7 +7,8 @@ export const skillCategories : SkillCategories = [
             "EC2", "Lambda", "Elastic Beanstalk", "Step Functions", "S3", "EBS", "RDS",
             "ElastiCache", "Athena", "CloudFront", "ELB", "Route 53", "API Gateway",
             "IAM", "Secrets Manager", "Parameter Store", "CodePipeline", "CodeBuild", "CodeDeploy",
-            "SNS", "SQS", "KMS"
+            "SNS", "SQS", "KMS", "CloudWatch", "CloudTrail", "X-Ray", "Cognito", "DynamoDB", "ECS", "EKS", 
+            "Kinesis", "CloudFormation", "Cloud Development Kit (CDK)", "Serverless Framework", 
         ]
     },
     {

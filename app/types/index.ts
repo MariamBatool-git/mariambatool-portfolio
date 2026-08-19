@@ -27,3 +27,12 @@ export interface SkillCategory {
 }
 
 export type SkillCategories = SkillCategory[];
+
+export type Certification = {
+    id: string;
+    name: string;
+    link: string;
+    provider?: string;
+};
+
+export type Certifications = Certification[];

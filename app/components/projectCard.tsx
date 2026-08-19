@@ -27,7 +27,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             </CardContent>
             <CardActions sx={{ justifyContent: 'flex-end' }}>
                 <OpenInNewIcon
-                    sx={{ color: 'black' }}
+                    sx={{ color: 'black', cursor: 'pointer'  }}
                     onClick={() => {
                         if (project.link == ""){
                             return;

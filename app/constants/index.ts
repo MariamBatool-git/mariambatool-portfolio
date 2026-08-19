@@ -5,3 +5,4 @@ export { experience } from './experience';
 export { name } from './about';
 export { designation } from './about';
 export { skillsSummary } from './about';
+export { certifications } from './certifications';
