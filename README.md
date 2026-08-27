@@ -16,8 +16,8 @@ I'm a full-stack software engineer and an **AWS Certified Developer – Associat
 
 - **Portfolio:** [mariambatool-portfolio.vercel.app](https://mariambatool-portfolio.vercel.app)
 - **Contact form:** available on the site
-- **LinkedIn:** [linkedin.com/in/batoolmariam]
-- **Github:** [github.com/MariamBatool-git]
+- **LinkedIn:** [linkedin.com/in/batoolmariam](https://www.linkedin.com/in/batoolmariam)
+- **Github:** [github.com/MariamBatool-git](https://github.com/MariamBatool-git)
 
 
 ---
