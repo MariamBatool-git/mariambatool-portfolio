@@ -16,6 +16,13 @@ export const projects: Project[] = [
         link: "https://app.banksey.com/"
     },
     {
+        name: "Serverless Payment Processing System",
+        description: "A serverless payment processing system built with AWS Lambda, Amazon SQS, Amazon DynamoDB, and AWS SAM.",
+        appType : "Serverless App",
+        technologies: ["Python", "AWS", "SAM"],
+        link: "https://github.com/MariamBatool-git/aws-serverless-payment-processing"
+    },
+    {
         name: "Taqwa - Sharia'ah compliant Investment",
         description: "A Sharia'ah compliant investment platform for personalized financial planning.",
         appType : "iOS/Android App",
